@@ -1,0 +1,45 @@
+header{
+    background-color: var(--amarillo);
+    padding: 20px 0;
+    font-size: var(--cuerpoDeTexto);
+}
+
+header .logo, header .SearchBar{
+    margin: 0 20px;
+}
+
+header .logo img{
+    width: 45%;
+}
+
+header .SearchBar i{
+    width: 45%;
+    background-color: white;
+    border: 1px solid var(--grisOscuro);
+    border-radius: 4px;
+}
+
+header p{
+    margin:5px;
+    text-align: center;
+}
+
+header .links ul{
+    margin-bottom: 20px;
+}
+
+header .burger{
+    text-align: center;
+}
+header .burger i{
+    background-color: var(--celeste);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: var(--titulares);
+}
+
+header .links i{
+    margin: 0 3px;
+}
+
