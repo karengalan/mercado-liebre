@@ -1,5 +1,9 @@
 footer{
     padding: 20px 15px 10px;
+    font-size: 10px;
+    margin: 0px;
+    display:flexbox;
+    align-items: center;
 }
 
 footer section{
@@ -8,6 +12,14 @@ footer section{
     padding: 0 30px;
 }
 
+footer ul{
+    margin-top: 10px;
+    text-align: center;
+    color: var(--colorGrisOscuro)
+}
+footer ul:last-child{
+    text-align: left;
+}
 footer section:last-child{
     text-align: start;
     margin-bottom: 0;
