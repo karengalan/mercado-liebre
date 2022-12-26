@@ -18,8 +18,11 @@
             <img src="/images/logo-mercado-liebre.svg" alt="">
         </div>
         <section class="SearchBar">
-            <input type="Text" placeholder="Buscar productos, marcas" required>
-            <button id="lupa"><i id="lupa" class="fas fa-search"></i></button>
+            <form action="/search" method="get">
+                <label for="search"></label>
+                <input type="text" placeholder="Buscar productos, marcas" name="search">
+                <button class="search"><i class="fa fa-search"></i></button>               
+            </form>
         </section>
 
         <section class="slogan">
@@ -34,8 +37,8 @@
                 <li><a href="">Ayuda</a></li>
             </ul>
             <ul class="user">
-                <li><a href="">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
-                <li><a href="">Ingresá <i class="fas fa-sign-in"></i> </a></li>
+                <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                <li><a href="/login">Ingresá <i class="fas fa-sign-in"></i> </a></li>
                 <li><a href="">Mis compras <i class="fas fa-shopping-basket"></i> </a></li>
             </ul>
         </nav>

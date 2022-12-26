@@ -1,0 +1,44 @@
+.login {
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: stretch;
+    margin-bottom: 20px;
+}
+.login input{
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+.login small{
+    color: red;
+    display: flex;
+}
+.login .recordarme{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    color: green;
+}
+.login button{
+    padding: 1px;
+    width: 100%;
+    background-color: var(--celeste);
+    color: var(--grisClaro);
+    margin-top: 30px;
+}
+
+
+
+
+@media(min-width: 460px){
+    .login {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+        align-items: stretch;
+}
+}

@@ -2,8 +2,11 @@ footer{
     padding: 20px 15px 10px;
     font-size: 10px;
     margin: 0px;
-    display:flexbox;
-    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 footer section{
@@ -15,7 +18,7 @@ footer section{
 footer ul{
     margin-top: 10px;
     text-align: center;
-    color: var(--colorGrisOscuro)
+    color: var(--grisOscuro)
 }
 footer ul:last-child{
     text-align: left;

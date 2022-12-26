@@ -1,4 +1,4 @@
-header{
+.header{
     background-color: var(--amarillo);
     padding: 20px 0;
     font-size: var(--cuerpoDeTexto);
@@ -26,7 +26,8 @@ header .logo{
 } 
 
 header .logo img{
-    width: 45%;
+    width: 100%;
+    height: 100%;
     flex-grow: 1;
    padding: 1px; 
 }
@@ -117,7 +118,7 @@ header .links i{
 @media (min-width:769px){
 
 }header{
-    background-color: var(--colorAmarillo);
+    background-color: var(--amarillo);
     padding: 20px 0;
 }
 header .logo,header .searchBar{
@@ -132,7 +133,7 @@ header .searchBar{
 header .searchBar i{
     padding: 1px;
     background-color:white; 
-    border: 1px solid var(--colorGrisOscuro);
+    border: 1px solid var(--grisOscuro);
     border-radius: 4px; 
 } 
 header  p{
@@ -153,7 +154,7 @@ header .menu{
     
 }
 header .menu i{
-    background-color: var(--colorCeleste);
+    background-color: var(--celeste);
     color: white;
     padding: 10px;
     border-radius: 6px;
