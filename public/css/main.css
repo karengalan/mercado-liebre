@@ -35,10 +35,10 @@ main section article img {
 }
 
 main section .contenedor.contenedor {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; */
-    justify-content: flex-start;
+    position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
     flex-grow: 1;
 }
 
@@ -78,12 +78,12 @@ main section article .camion i {
 }
 
 main section article .contenedor {
-    border-top: 1px solid var(--colorGrisClaro);
+    border-top: 1px solid var(--grisClaro);
     padding: 15px;
 }
 
 main section article {
-    box-shadow: 0px 0px 10px var(--colorGrisOscuro);
+    box-shadow: 0px 0px 10px var(--grisOscuro);
     display: flex;
     justify-content: space-between;
 
@@ -111,7 +111,7 @@ main section article {
     }
 
     main section article {
-        box-shadow: 0px 0px 10px var(--GrisOscuro);
+        box-shadow: 0px 0px 10px var(--grisOscuro);
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -171,7 +171,7 @@ main section article {
     }
 
     main section article {
-        box-shadow: 0px 0px 10px var(--colorGrisOscuro);
+        box-shadow: 0px 0px 10px var(--grisOscuro);
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
