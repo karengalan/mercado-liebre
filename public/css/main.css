@@ -35,10 +35,10 @@ main section article img {
 }
 
 main section .contenedor.contenedor {
+    position: relative;
     display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; */
-    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
     flex-grow: 1;
 }
 
